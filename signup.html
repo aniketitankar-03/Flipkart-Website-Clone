@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
+    <title>Flipcart Clone | Sign up</title>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+
+<body>
+    <div id="container"></div>
+
+    <div id="outerbox">
+        <div id="innerbox">
+            <div class="leftinnerbox">
+                <div>
+                    <p class="para1">Looks like you're new here!</p>
+                    <p class="para2">Sign up with your mobile number to get started</p>
+                </div>
+                <div style="display: flex; justify-content: center; align-items: center;padding-bottom: 35px;">
+                    <img src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/login_img_c4a81e.png"
+                        alt="hero_signup">
+                </div>
+            </div>
+            <div class="rightinnerbox">
+
+                <div>
+                    <input type="number" id="mobile" name="mobile" placeholder="Enter mobile number">
+                </div>
+
+                <div>
+                    <input type="text" id="name" name="name" placeholder="Enter your name">
+                </div>
+
+                <div>
+                    <input type="password" id="pass" name="passward" placeholder="Enter Passward">
+                </div>
+
+                <div>
+                    <p style="font-size: 0.8rem; align-self: start;color: #878787; margin-top: 30px;">By continuing, you agree to Flipkart's <a
+                        href="#">Terms of Use</a> and <a href="#">Privacy Policy.</a></p>
+                </div>
+                
+                <div>
+                    <button  class="continue" style="margin-top: 15px;margin-bottom: 10px;border: none; font-size: 17px;" onclick="Signup()">Continue</button>
+                </div>
+
+                <div>
+                    <button  onclick="window.location.href = 'signin.html'" style="background-color:#d7d9dd; border: none; color: #2874F0; font-size: 17px;">
+                        Existing User? Log in
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+<script>
+    $(function () {
+        $("#container").load("navBar.html");
+    });
+</script>
+<script src="signup.js"></script>

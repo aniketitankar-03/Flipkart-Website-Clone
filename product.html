@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flipkart | Products</title>
+    <link rel="stylesheet" href="./product.css" />
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div id="container"></div>
+
+    <main style="padding: 8px; background-color: #F1F2F4;">
+        <section id="products">
+            <div class="products-filter-left">
+                <p>Filters</p>
+            </div>
+            <div class="products-filter-right">
+                <div id="topmenu">
+                    <div class="products-list">
+                        <a href="#">Churidar and Dupatta Set Women's Ethnic Sets</a>
+                        ,
+                        <a href="#">Waistcoat and Dhoti Pant Set Women's Ethnic Sets</a>
+                        ,
+                        <a href="#">Glorious Women's Ethnic Sets</a>
+                        ,
+                        <a href="#">Kurta</a>
+                        ,
+                        <a href="#">Palazzo & Dupatta Set Women's Ethnic Sets</a>
+                        ,
+                        <a href="#">anushansa Women's Ethnic Sets</a>
+                        ,
+                        <a href="#">Kurta and Skirt Set Women's Ethnic Sets</a>
+                        ,
+                        <a href="#">Klosia Women's Ethnic Sets</a>
+                        ,
+                        <a href="#">Kurta and Trousers Set Women's Ethnic Sets</a>
+                        ,
+                        <a href="#">Zola Women's Ethnic Sets</a>
+                        ,
+                        <a href="#">House of Pataudi Women's Ethnic Sets</a>
+
+                    </div>
+                    <div class="products-heading">
+                        <h1>Women's Ethnic Sets</h1>
+                        <span>(Showing 1 - 40 products of 12,564 products)</span>
+                    </div>
+                    <div class="products-sortBy">
+                        <span class="sort-type" style="color: #212121;font-weight: 551;">Sort By</span>
+                        <span class="sort-type">Popularity</span>
+                        <span class="sort-type">Price -- Low to High</span>
+                        <span class="sort-type">Price -- High to Low</span>
+                        <span class="sort-type">Newest First</span>
+                    </div>
+                </div>
+                <div id="collection"></div>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer section -->
+    <section id="footer"></section>
+</body>
+
+</html>
+<script>
+    $(function () {
+        $("#container").load("./Navbar.html");
+    });
+</script>
+<script>
+    $(function () {
+        $("#footer").load("footer.html");
+    });
+</script>
+<script src="./product.js"></script>
