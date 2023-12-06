@@ -46,7 +46,7 @@ function Signin(){
                 if(passward == getUsersdata[i].passward)
                 {
                     alert("Sign in Successfull !!");
-                    window.location.href = "Index.html"
+                    window.location.href = "index.html"
                 }
                 else{
                     alert("Invalid Passward !!");
