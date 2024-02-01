@@ -27,7 +27,7 @@
     color: #2A55E5;
     font-weight: 840;
     padding-left:4px;
-    margin-bottom: -1px;
+    margin-bottom: -5px;
 }
 
 #logo_content{
@@ -67,7 +67,10 @@
 #nav2 #search_bar{
     height: 100%;
     width: calc(100% - 7%);
-    
+}
+#nav2 #search_bar input{
+    border: none;
+    outline: none;
 }
 
 #nav2 input{
@@ -83,7 +86,7 @@
 #nav3{
     display: flex;
     font-size: 20px;
-    align-items: center;
+    /* align-items: center; */
     padding-left: 8px;
     padding-right: 8px;
     cursor: pointer;
@@ -91,9 +94,12 @@
 }
 #store{
     color: #4d4c4c;
+    transform: translateY(7px);
 }
 
 #nav3 p{
+    display: flex;
+    align-items: center;
     font-size: 1rem;
     letter-spacing: 0.7px;
     font-weight: 0;
@@ -135,6 +141,8 @@
     padding-left: 5px;
     padding-right: 7px;
     font-size: 1rem;
+    outline: none;
+    border: none;
 }
 
 #nav5{
