@@ -72,6 +72,7 @@
     border: none;
     border-bottom: 2px solid ;
     margin-top: 30px;
+    outline: none;
 }
 
 /* .rightinnerbox div:hover input{
