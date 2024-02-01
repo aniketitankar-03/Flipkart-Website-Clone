@@ -16,6 +16,7 @@
 #innerbox{
     width: 55%;
     height: 72vh;
+    max-height: 600px;
     display: flex;
     background-color: #fff;
     margin-top: 15px;
