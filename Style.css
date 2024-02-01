@@ -194,6 +194,9 @@ main{
     overflow-x: auto;
     overflow-y: auto;
 }
+#categories::-webkit-scrollbar{
+    display: none;
+}
 
 #categories > div > a > img{
     height: 70px;
